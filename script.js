@@ -27,7 +27,7 @@ startButton.addEventListener("click", (event) => {
     if (running)
         return;
 
-    time = 0;
+    // time = 0;
     lastTime = performance.now();
     running = true;
 });
