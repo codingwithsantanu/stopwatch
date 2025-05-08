@@ -2,7 +2,7 @@
 This is a *very simple* stopwatch program made using `HTML`, `CSS`, and vanilla `JS`. You may think that it is just an usual stopwatch program made as a beginner project. Well, that would be correct if there wasn't a time limitation.
 
 ## How to Run
-You cab either visit the site directly from this link — [click here](codingwithsantanu.github.io/stopwatch) or run the `index.html` file directly. I know most of you already knew, but it seems to be a good idea to include this part into the code.
+You cab either visit the site directly from this link — [click here](https://codingwithsantanu.github.io/stopwatch) or run the `index.html` file directly. I know most of you already knew, but it seems to be a good idea to include this part into the code.
 
 Run this command in your terminal to clone the repository.
 ``` sh
