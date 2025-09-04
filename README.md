@@ -1,24 +1,27 @@
 # Stopwatch
-This is a *very simple* stopwatch program made using `HTML`, `CSS`, and vanilla `JS`. You may think that it is just an usual stopwatch program made as a beginner project. Well, that would be correct if there wasn't a time limitation.
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Version](https://img.shields.io/badge/Version-2.0.0-orange)
+
+A *very simple* stopwatch project made using `HTML`, `CSS`, and vanilla `JavaScript`. An ideal warmup project with space for improvements.
+
+## Introduction
+I am Santanu Paul, a student and coding hobbyist from India.
+
+I made this project a few months ago with a time limitation of 30 minutes. Although, I was succesfull in that creating a perfectly working and elegant website for it, I wasn't really satisfied with the code of that project. I was mainly a Python developer back then and didn't have much experience with web technologies. In the past few months, I have improved a lot. Hence, I'm ready to take on this challenge once again.
+
+## Rules
+For this challenge, I have come up with a few rules:
+- **Time limitation**: I'm going to restrict myself to 30 minutes.
+- **Code quality**: I must use proper variable names and follow proper conventions.
+- **Documentation**: I must document this project with at least a few commenths and this beautiful `README.md` file.
 
 ## How to Run
-You cab either visit the site directly from this link — [click here](https://codingwithsantanu.github.io/stopwatch) or run the `index.html` file directly. I know most of you already knew, but it seems to be a good idea to include this part into the code.
-
-Run this command in your terminal to clone the repository.
-``` sh
-git clone https://github.com/codingwithsantanu/stopwatch.git
-```
-
-Then finally open the *index.html* using a web browswer like `Chrome` or `Edge`.
-
-## Twist
-This project was meant to serve as a **warm up**. For this reason, I decided to add a time limit for this project that was no more than `30 minutes`. It's worth mentioning, that this took me only *25 minutes* including the time for some of this documentation and a ton of testing and tweakings.
-
-I won't lie, the `IntelliCode Completation` Extension helped me stylise my project's buttons and save a crap ton of time. Anyways, it's good to use such tools which saves the time for development.
-
-I attempted this challenge starting from `20:55` to `21:13`, I did a bit of testing after it and google timer turned out to have `4:55` left.
+You can either vist the site for this project directly from this link — [click here](https://codingwithsantanu.github.io/stopwatch/), or open the `index.html` file yourself in a modern web browser like Chrome or Edge.
 
 ## Result
-Obviously, I was in a hurry so the code wasn't probably as optimized and ideal. But it definately *works* with even one comment inside the `script.js` file. I will not do any changes inside the `index.html`, `style.css` and `script.js` files. Have a look at those files.
+I finished just under 30 minutes, in 29 minutes. I started the timer from 14:39 and finished my project within 15:08. All the documentation except this section in the README.md file was already done from the start. Overall, it was such a fun project.
 
-> Thanks for reading :heart:! Have a good day :wink:.
+I would like to confess that I still suck at styling. I had to waste some time checking what colors I used for the container and the body. I never said I wasn't allowed to do that, did I?
+
+> Anyways, thanks for reading. Have a good day 😉!

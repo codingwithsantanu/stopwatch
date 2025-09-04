@@ -1,34 +1,43 @@
-const timeElement = document.getElementById("time");
-const startButton = document.getElementById("start");
-const stopButton = document.getElementById("stop");
-const resetButton = document.getElementById("reset");
+// Fetch elements from the document.
+const textElement = document.querySelector(".text");
+const startButton = document.querySelector(".start");
+const stopButton = document.querySelector(".stop");
+const resetButton = document.querySelector(".reset");
 
-let lastTime = performance.now();
-let time = 0;
+// Variables for tracking time.
+let time = 0.0;
 let running = false;
 
-function updateTime() {
+// Main update loop.
+let lastTime = 0.0;
+
+function updateTime(currentTime = performance.now()) {
     requestAnimationFrame(updateTime);
-    
+
+    // Calculate delta time.
+    const dt = (currentTime - lastTime) / 1000.0;
+    lastTime = currentTime;
+
+    // Update the timer if running.
     if (running) {
-        const now = performance.now();
-        const dt = (performance.now() - lastTime) / 1000;
         time += dt;
-        lastTime = now;
+        updateTimerText();
     }
-    
-    timeElement.innerHTML = String(time.toFixed(2));
 }
 
-updateTime();
+updateTime(0.0);
+updateTimerText();
 
+// Function to update the timer text.
+function updateTimerText() {
+    textElement.innerHTML = time.toFixed(3);
+}
+
+// Add event listeners for buttons.
 startButton.addEventListener("click", (event) => {
-    // Avoid reseting when running.
-    if (running)
-        return;
+    // Avoid reseting time when clicking start.
+    if (running) return;
 
-    // time = 0;
-    lastTime = performance.now();
     running = true;
 });
 
@@ -37,6 +46,7 @@ stopButton.addEventListener("click", (event) => {
 });
 
 resetButton.addEventListener("click", (event) => {
-    time = 0;
     running = false;
+    time = 0.0;
+    updateTimerText();
 });
